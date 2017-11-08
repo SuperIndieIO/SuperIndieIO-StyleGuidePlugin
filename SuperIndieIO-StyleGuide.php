@@ -2,8 +2,9 @@
 /*
 * Plugin Name: SuperIndieIO Style Guide
 * Description: In-Editor Style Guide
-* Version: 1.0
-* Author: ADeanKelly
+* Github Plugin URI: https://github.com/SuperIndieIO/SuperIndieIO-StyleGuidePlugin
+* Version: 1.0.01
+* Author: A. Dean Kelly
 * Author URI: http://adeankelly.com
 */
 
@@ -13,10 +14,14 @@ function shortcode_meta() {
 add_action( 'add_meta_boxes', 'shortcode_meta' );
 
 function si_meta_callback( $post ) {
-    echo 'Use This Style Guide';
+    echo 'Use This Guide for Styling Articles on SuperIndieIO';
     ?>
     <br><br>
+    <?php echo '::Title Tagging Structure::'; ?>
+    <br>
     <?php echo '[VIDEO] - Use for articles with video'; ?>
+    <br>
+    <?php echo '[WATCH] - Use for alternate articles with video'; ?>
     <br>
     <?php echo '[TRAILER] - Use for articles with a trailer'; ?>
     <br><br>
