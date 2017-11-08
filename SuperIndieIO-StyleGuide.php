@@ -3,7 +3,7 @@
 * Plugin Name: SuperIndieIO Style Guide
 * Description: In-Editor Style Guide
 * Github Plugin URI: https://github.com/SuperIndieIO/SuperIndieIO-StyleGuidePlugin
-* Version: 1.1
+* Version: 1.1.1
 * Author: A. Dean Kelly
 * Author URI: http://adeankelly.com
 */
@@ -40,7 +40,7 @@ wp_add_dashboard_widget('custom_help_widget', 'SuperIndieIO Content Schedule', '
 }
  
 function si_dashboard() {
-echo '<p>Welcome to Custom Blog Theme! Need help? Contact the developer <a href="<a href="mailto:yourusername@gmail.com">mailto:yourusername@gmail.com</a>">here</a>. For WordPress Tutorials visit: <a href="<a href="http://www.wpbeginner.com">http://www.wpbeginner.com</a>" target="_blank">WPBeginner</a></p>';
+echo '<p>Weekly Content Schedule on SuperIndieIO</p><p>[Monday] Screenshot Saturday Showcase</p><p>[Tuesday] Stand Out from the Crowd-Funding</p>';
 }
 
 
